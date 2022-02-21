@@ -49,5 +49,5 @@ JS中的数据类型分为两类，一类是简单数据类型（又叫值类型
 #### 后记
 在判定过程中，涉及到很多类型转化以及语句的返回值，而由于Js的特性，时常会有一些让人意向不到的结果，所以在此推个仓库，供大家在学习之余乐一乐。
 #### 参考文献
-(如何在 JavaScript 中判断一个对象是否为空)[https://www.jianshu.com/p/e1722b728c55]
-(Github Repository:wtfjs)[https://github.com/denysdovhan/wtfjs]
+[如何在 JavaScript 中判断一个对象是否为空](https://www.jianshu.com/p/e1722b728c55)
+(https://github.com/denysdovhan/wtfjs)[Github Repository:wtfjs]
