@@ -1,7 +1,9 @@
 ---
 title: git食用手册
 date: 2022-02-24 12:14:04
-tags: 前端 git
+tags: 
+- 前端 
+- git
 ---
 #### 前言
 近期在跟小伙伴合作开发，期间频繁使用到了一些git命令以及学习到一些分支管理流程，记录一下。
@@ -42,7 +44,7 @@ tags: 前端 git
   * `git reset --mixed {version}`默认模式，会将`commit`信息和暂存区的信息回退，保留代码。
   * `git reset --soft {version}`只会将`commit`信息回退。
   * `git reset --hard {version}`会将`commit`信息、暂存区信息、代码全部回退。
-  * 
+
 #### 部分场景的工作流程
 ##### 多人合作开发分支管理
 案例：远端仓库主分支为`master`，且已克隆到本地，下述操作均在本地仓库。
@@ -52,7 +54,8 @@ tags: 前端 git
 4. `git add`、`git commit`、`git push`一条龙，此举会在远端仓库创建dev分支并将改动推送上去。
 5. 打开仓库页面提交`Pull Request`，源分支为`dev`，目标分支为`master`。
 6. `git branch --delete dev`删除本地`dev`分支。
-7.等待其他人的更新并重复步骤1。
+7. 等待其他人的更新并重复步骤1。
+
 ##### 合作开发时忘了先`git pull`拉取最新版本代码
 案例：情况与上面一致，但是在开发时忘了先拉取最新版本的代码,本地存在`master`、`dev`两个分支，且当前处在`dev`分支。
 1. `git stash`保存所有改动,且分支恢复到改动之前，即与`master`一致的状态。

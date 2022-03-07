@@ -1,7 +1,9 @@
 ---
 title: CSS隐藏元素的方法
 date: 2022-01-02 17:17:58
-tags: 前端 CSS
+tags: 
+- 前端
+- CSS
 ---
 学习vue时思考了下v-if是怎样隐藏元素的，由此想到了经典面试题之display:none与visibility:hidden的区别，随即将CSS隐藏元素的方法整理一下。
 <!--more-->

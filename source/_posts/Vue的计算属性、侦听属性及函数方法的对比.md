@@ -1,7 +1,10 @@
 ---
 title: Vue的计算属性、侦听属性及函数方法的对比
 date: 2022-01-13 18:55:05
-tags: Vue 前端 Javascript
+tags: 
+- Vue 
+- 前端 
+- Javascript
 ---
 
 Vue 对于复杂逻辑的实现提供了计算属性`computed`、侦听属性`watch`、函数方法`methods`。本文主要是记录一下使用过程中需要注意的点以及在选择实现途径时的一点考量。
