@@ -1,7 +1,6 @@
 ---
 title: 读书速记-《深入浅出React和Redux》（二）上
 date: 2022-03-08 23:43:08
-hiddern: true
 tags:
     - React
     - 读书笔记
@@ -9,7 +8,7 @@ tags:
 
 ### 简介
 
-本片读书速记的内容对应《深入浅出 React 和 Redux》这本书的第二章的前半，主要内容是 React 如何通过 state 和 prop 进行状态管理。
+本篇读书速记的内容对应《深入浅出 React 和 Redux》这本书的第二章的前半，主要内容是 React 如何通过 state 和 prop 进行状态管理。
 
 本章的内容是从组件化开发的基础上，介绍了 React 进行组件化开发的方式，其中尤其介绍了在 React 父子组件间的数据通信方式，即 state 与 prop 参数，以及组件的生命周期。
 

@@ -39,7 +39,7 @@ tags:
   会显示所有提交的信息（版本号、作者、时间、message），且能通过参数显示更加详细的信息。
 * `git show`
   显示最近一次提交的信息及改动，能通过提供参数显示特定版本号的信息及改动，并且能通过提供参数进行一些数据统计。
-* `git rest {version}`
+* `git reset {version}`
   * 回退到对应版本,`git reset`的回退有三种模式：`mixed（默认）`,`soft`,`hard`
   * `git reset --mixed {version}`默认模式，会将`commit`信息和暂存区的信息回退，保留代码。
   * `git reset --soft {version}`只会将`commit`信息回退。
